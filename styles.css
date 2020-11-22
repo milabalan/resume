@@ -1,0 +1,231 @@
+
+/*сброс стилей браузера - обязательно для всех сйатов.
+padding - отсутуп (внутри контейнера)
+Margin - отсутуп (снаружи контейнера)
+ margin: 0 auto - отцентровать 
+display: flex; - Распложение элементов. По умолчанию - по строке
+*/
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #e6e4e2;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    font-family: Montserrat;
+
+}
+.main-container{
+    background: #ffffff;
+    display: flex;
+    max-width: 1200px;
+    margin: 0 auto;
+    box-shadow: 5px 9px 20px rgba(0, 0, 0, 0.15);
+    color:  #382658;
+}
+.sidebar{background: #9bbbe7;
+    width: 390px;
+    height: 100%;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    color: #382658;
+
+
+}
+.my-photo{
+    width: 390px;
+}
+.about-me-container{
+    padding-left: 90px ;
+    padding-right: 90px ;
+    padding-top: 110px ;
+    padding-bottom: 110px ;
+
+}
+.Techskills{
+    margin-left: 40px ;
+    margin-right: 40px ;
+    margin-top: 60px ;
+}
+.Techskills-title{
+    margin-bottom: 20px;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 24px;
+    color: #382658;
+}
+
+.Techskills-progress{
+    margin-bottom: 20px;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 24px;
+    color: #382658;
+}
+.contact-link{
+    color: #434c5a;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.CE{
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 24px;
+    margin-right: 10px;
+}
+.tech-skills{
+    margin-left: 40px ;
+    margin-right: 40px ;
+    margin-top: 55px ;
+}
+
+.Skills-title{
+    margin-bottom: 20px;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 24px;
+    color: #382658;
+}
+
+.skills-A{
+    margin-top: 20px ;
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    color: #382658;
+}
+.tech-skills-item{
+font-size: 14px;
+font-weight: 400;
+line-height: 24px;
+color: #dd9440;
+margin-left: 15px;
+}
+.tech-skills-item-text{
+    color: #a7a4a4;
+}
+
+
+.soft-skills{
+    margin-left: 40px ;
+    margin-right: 40px ;
+    margin-top: 55px ;
+}
+.about-me-profession{
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 24px; 
+    margin-bottom: 23;
+    color: #4d518f;
+}
+
+.about-me-name{
+    font-size: 35px;
+    font-weight: 700;
+    line-height: 89px;
+    color: #4d518f;
+}
+.text-about-me{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-top: 24px;
+    color: #595959;
+}
+.info-container{
+    margin-bottom: 65px;
+}
+
+.about-me-titel{
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 24px;  
+    margin-bottom: 15px;
+    margin-top: 30px;
+}
+
+.projects-link{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #595959;
+}
+
+.tochka{
+    color: #f2f2f7;
+}
+.techname {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #595959;
+}
+
+.dots{
+    color: #bebebe;
+    font-weight: 100;
+}
+.proect-item {
+    font-weight: 700;
+    margin-left: 17px;
+}
+
+.projcects-container {
+    margin-bottom: 55px;
+    margin-top: 20px;
+}
+
+.about-me-titel-profession{
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+.company-name{
+    color: #4d518f;
+}
+
+.proff-period{
+    color: #a8a8a8;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.slash{
+    color: #000000;
+}
+
+.proffesion-duties{
+    margin-top: 14px;
+    margin-bottom: 30px;
+    margin-left: 15px;
+}
+.proffesion-duties-item{
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+font-style: italic;
+}
+
+.university{
+    color: #ff7011;
+    margin-top: 21px;
+    margin-bottom: 15px;
+}
+.facultet{
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 24px;
+    margin-bottom: 15px;
+}
